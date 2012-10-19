@@ -1,0 +1,22 @@
+<package>
+  <description brief="sdl_viewer">
+
+     An image viewer. I made this because I couldn't get ROS's default image
+     viewer to work on Gentoo due to incompatibilities with different versions
+     of gtk+
+
+  </description>
+  <author>root</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/sdl_viewer</url>
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+  <depend package="sensor_msgs"/>
+  <depend package="image_transport"/>
+  <depend package="sdl"/>
+  <depend package="rostoy"/>
+
+</package>
+
+
